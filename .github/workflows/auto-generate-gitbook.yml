@@ -16,6 +16,8 @@ jobs:
             
     - name: install nodejs
       uses: actions/setup-node@v3
+      with: 
+        node-version: 14
       
     - name: configue gitbook
       run: |
@@ -45,7 +47,7 @@ jobs:
         git commit -m "Updated By Github Actions With Build ${{github.run_number}} of ${{github.workflow}} For Github Pages"
         git branch -M main
         git push --force --quiet "https://${TOKEN}@${REF}" main:gh-pages
-        
+
 #push test 1
                 
                 
