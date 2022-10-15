@@ -10,12 +10,12 @@ jobs:
         
     steps:                          
     - name: checkout main
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
       with:
         ref: main
             
     - name: install nodejs
-      uses: actions/setup-node@v1
+      uses: actions/setup-node@v3
       
     - name: configue gitbook
       run: |
@@ -33,7 +33,7 @@ jobs:
       env:
         TOKEN: ${{ secrets.TOKEN }}
         REF: github.com/${{github.repository}}
-        MYEMAIL: 1652784880@qq.com                  # ！！记得修改为自己邮箱
+        MYEMAIL: 1652784880@qq.com                  
         MYNAME: ${{github.repository_owner}}          
       run: |
         cd _book
