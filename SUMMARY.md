@@ -1,6 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [Folder1](folder1/README.md)
-    * [test1](folder1/test.md)
+* [Data Collection Plan](datacollection/README.md)
+    * [Interview](datacollection/interview.md)
+    * [Survey](datacollection/survey.md)
 

@@ -13,8 +13,7 @@
 		"-lunr", 
 		"-search", 
 		"search-pro",
-		"splitter",
-		"disqus"
+		"splitter"
 	],
 	"pluginsConfig": {
 		"editlink": {
@@ -38,10 +37,7 @@
 		"prism": {
 			"css": ["prismjs/themes/prism-solarizedlight.css"],
 			"lang": {"flow": "typescript"}
-		},	
-		"disqus": {
-            "shortName": "Maxwell21212"
-        }
+		}
 	},
 	"ignores" : ["_book", "node_modules"]
 }	
