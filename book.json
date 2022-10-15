@@ -20,6 +20,9 @@
 			"base": "https://github.com/Maxwell21212/TeamName/blob/main",
 			"label": "Edit This Page"
 		},	
+		"anchor-navigation-ex": {
+			"showLevel": false
+		},
 		"github-buttons": {
 			"buttons": [{
 				"user": "Maxwell21212",
