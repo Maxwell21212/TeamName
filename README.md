@@ -24,7 +24,7 @@
 
 相对于桌面应用：运行在移动端的应用更为节能，而且方便随时查看。
 
-# HIFI Prototype:https://cloud.indigo.design/share/utue08uh10w1
+# HIFI Prototype: https://cloud.indigo.design/share/utue08uh10w1
 
 # Team Info
 
